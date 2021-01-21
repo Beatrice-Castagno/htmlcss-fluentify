@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+ font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: relative;
+  background-color: #0C325A;
+  height: 80vh;
+}
+
+#container-header {
+  margin:auto;
+  width: 80%;
+}
+
+#logo img {
+  padding:10px;
+  float:left;
+  display: inline-block;
+  height: 70px;
+  width: 180px;
+}
+#nav-1 {
+  float:left;
+  margin-top: 35px;
+  margin-left: 80px;
+}
+
+#nav-1 ul li {
+  padding-right: 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}

@@ -36,7 +36,7 @@ header {
   line-height: 70px;
 }
 
-#logo, #nav-1, #nav-2, {
+#logo, #nav-1, #nav-2 {
   float: left;
 }
 
@@ -60,7 +60,7 @@ header {
 
 #nav-1 li:not(:last-child),
 #nav-2 li:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 #nav-2 ul li:nth-child(2) {
@@ -92,8 +92,12 @@ li a {
 
 h1 {
   font-size: 50px;
-  font-weight: bold;
   margin-bottom: 40px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom:10px;
 }
 
 #hero {
@@ -113,4 +117,13 @@ h1 {
   background-color: #7CBB02;
   padding: 18px 22px;
   border-radius: 3px;
+}
+.first-row {
+  text-align: center;
+  background-color: lightgrey;
+  padding:40px;
+}
+.main-text {
+  color:grey;
+  font-weight: bold;
 }

@@ -137,7 +137,7 @@ hr {
   border-color: lightgray;
 }
 
-#line-modify {
+.line-modify {
   width: 60px;
   border-color: lightgray;
   margin: 25px auto;

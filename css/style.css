@@ -42,7 +42,12 @@ header {
 /* /INTESTAZIONE */
 
 /* NAVIGAZIONE */
-#logo, #nav-1, #nav-2, .column {
+#logo,
+#nav-1,
+ #nav-2,
+ .column,
+ #img-discover,
+ #text-discover {
   float: left;
 }
 
@@ -75,6 +80,9 @@ header {
  padding: 8px 40px;
  border-radius: 5px;
 }
+#nav-2 ul li:nth-child(2):hover{
+  border: 1px solid #7CBB02;
+}
 
 #nav-2 ul li:last-of-type {
   background-color: #7CBB02;
@@ -91,9 +99,12 @@ ul li {
 }
 
 li a {
-  font-weight: bold;
   text-decoration: none;
   color: white;
+}
+
+li a:hover {
+  font-weight: bold;
 }
 /* /LINK */
 /* /NAVIGAZIONE */
@@ -110,6 +121,10 @@ h2 {
   margin-bottom:10px;
 }
 
+h3 {
+  font-size: 35px;
+}
+
 p {
  color:grey;
  font-weight: bold;
@@ -122,10 +137,10 @@ hr {
   border-color: lightgray;
 }
 
-.line-modify {
+#line-modify {
   width: 60px;
   border-color: lightgray;
-  margin: 20px auto;
+  margin: 25px auto;
 }
 /* /REGOLE TESTO */
 /* HERO */
@@ -138,7 +153,7 @@ hr {
 #text-hero{
   position: absolute;
   top: 44%;
-  width: 35%;
+  width: 40%;
   transform: translateY(-50%);
 }
 
@@ -149,10 +164,11 @@ hr {
 }
 /* /HERO */
 /* ROW GREY */
-.first-row {
+#first-row {
   text-align: center;
   background-color: lightgrey;
   padding:40px;
+  margin-bottom: 10px;
 }
 
 section:not(.no-center) {
@@ -162,7 +178,7 @@ section:not(.no-center) {
 /* /ROW GREY */
 /* SEZIONE OFFERTE */
  .column {
-   padding:35px;
+   padding:40px;
  }
 
 .column-img {
@@ -172,8 +188,41 @@ section:not(.no-center) {
   width: 100%;
 }
 
-.column-left, .column-center, .column-right {
+#column-left, #column-center, #column-right {
   text-align: center;
   width: calc(100%/3);
 }
 /* /SEZIONE OFFERTE */
+/* SEZIONE DISCOVER LEVEL */
+
+#section-discover {
+  padding: 20px;
+}
+
+#img-discover, #text-discover {
+  height: 30vw;
+  width: calc(100%/2);
+}
+
+#img-discover {
+  padding:40px;
+}
+
+#text-discover {
+  width: 40%;
+  padding: 40px;
+}
+
+#text-discover p {
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+#text-discover a {
+  font-weight: bold;
+}
+
+#text-discover a:hover {
+  color: #7CBB02;
+}
+/* /SEZIONE DISCOVER LEVEL */
